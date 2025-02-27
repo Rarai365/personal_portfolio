@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <input type="checkbox" id="darkMode" />
+
+    <div class="wrapper">
+      <label for="darkMode"
+        ><i class="fa-solid fa-circle-half-stroke"></i
+      ></label>
+      <!-- header section -->
+      <header>
+        <div class="header container flex">
+          <div class="logo flex">
+            <div>RAJESH</div>
+            <div class="line">Developer</div>
+          </div>
+          <label for="hamburgerMenu"><i class="fa-solid fa-bars"></i></label>
+
+          <input type="checkbox" id="hamburgerMenu" />
+
+          <div class="menu">
+            <ul class="flex navigation">
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#" class="nav-link">Skills</a></li>
+              <li><a href="#" class="nav-link">Projects</a></li>
+              <li><a href="#" class="nav-link">About</a></li>
+              <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero section -->
+      <div class="container2">
+        <div class="test">
+          <div class="profile-section">
+            <img
+              src="./assets/linkden pic.jpg"
+              alt="Rajesh Rai Profile"
+              class="profile-image"
+            />
+          </div>
+          <div class="text-section">
+            <p>Hello 👋 I'm</p>
+            <section class="animation">
+              <div class="first"><div>Rajesh Rai</div></div>
+              <div class="third"><div>A Programmer</div></div>
+              <div class="second"><div>A Web Developer</div></div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Intro section -->
+
+      <div class="intro-section">
+        <div>
+          <h2>I am a Full-Stack Developer from Sydney.</h2>
+          <p>
+            I am a passionate and dedicated junior software developer with a
+            strong enthusiasm for creating impactful web and software solutions.
+            With hands-on experience in multiple projects, I thrive on
+            transforming ideas into functional applications. My portfolio
+            showcases my skills in problem-solving, coding, and continuous
+            learning as I strive to deliver high-quality, user-friendly software
+            experiences.
+          </p>
+        </div>
+
+        <div>
+          <img src="assets/linkden pic.jpg" alt="" />
+
+          <!-- for resume download -->
+          <div>
+            <a href="assets/rajeshrai.pdf" download>
+              <center>
+                <button class="download-btn">
+                  View Resume
+                  <i class="fa-solid fa-download"></i>
+                </button>
+              </center>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- skills section -->
+      <section id="skills">
+        <center><h2 class="skills-text">Skills</h2></center>
+        <div class="flex-container skills-container">
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <p>HTML</p>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>CSS</p>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <p>JS</p>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-square-github"></i>
+            <p>GitHub</p>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <p>Figma</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <p>React</p>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-node-js"></i>
+            <p>Node JS</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- My work section-->
+      <section class="container my-5">
+        <div class="text-center blog-text mb-4">
+          <h2>MY PROJECTS</h2>
+          <hr />
+        </div>
+
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center"
+        >
+          <!-- Not to do List -->
+          <div class="col">
+            <div class="card h-100 shadow rounded">
+              <img
+                src="assets/ntdl.png"
+                class="card-img-top"
+                alt="Not to do List"
+                style="height: 25vh; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Not to do List</h5>
+                <div class="mb-2">
+                  <span class="badge bg-warning text-dark">HTML</span>
+                  <span class="badge bg-info text-dark">CSS</span>
+                  <span class="badge bg-info">JavaScript</span>
+                </div>
+                <p class="card-text">
+                  A simple project to track tasks you should avoid doing.
+                </p>
+                <a href="#" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grab & Go -->
+          <div class="col">
+            <div class="card h-100 shadow rounded">
+              <img
+                src="assets/grab and go.png"
+                class="card-img-top"
+                alt="Grab & Go"
+                style="height: 25vh; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Grab & Go</h5>
+                <div class="mb-2">
+                  <span class="badge bg-warning text-dark">HTML</span>
+                  <span class="badge bg-info text-dark">CSS</span>
+                  <span class="badge bg-info">JavaScript</span>
+                </div>
+                <p class="card-text">A food ordering app concept.</p>
+                <a href="#" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Calculator -->
+          <div class="col">
+            <div class="card h-100 shadow rounded">
+              <img
+                src="assets/calc.png"
+                class="card-img-top"
+                alt="Calculator"
+                style="height: 25vh; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <div class="mb-2">
+                  <span class="badge bg-warning text-dark">HTML</span>
+                  <span class="badge bg-info text-dark">CSS</span>
+                  <span class="badge bg-info">JavaScript</span>
+                </div>
+                <p class="card-text">A simple functional calculator.</p>
+                <a href="#" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Counter Clock -->
+          <div class="col">
+            <div class="card h-100 shadow rounded">
+              <img
+                src="assets/counterclock.png"
+                class="card-img-top"
+                alt="Counter Clock"
+                style="height: 25vh; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Counter Clock</h5>
+                <div class="mb-2">
+                  <span class="badge bg-warning text-dark">HTML</span>
+                  <span class="badge bg-info text-dark">CSS</span>
+                  <span class="badge bg-info">JavaScript</span>
+                </div>
+                <p class="card-text">A project to display a countdown timer.</p>
+                <a href="#" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Travel Blog -->
+          <div class="col">
+            <div class="card h-100 shadow rounded">
+              <img
+                src="assets/TravelBlog.png"
+                class="card-img-top"
+                alt="Travel Blog"
+                style="height: 25vh; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Travel Blog</h5>
+                <div class="mb-2">
+                  <span class="badge bg-warning text-dark">HTML</span>
+                  <span class="badge bg-info text-dark">CSS</span>
+                </div>
+                <p class="card-text">A travel blog website template.</p>
+                <a href="#" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Submit Home Address -->
+          <div class="col">
+            <div class="card h-100 shadow rounded">
+              <img
+                src="assets/address.png"
+                class="card-img-top"
+                alt="Submit Home Address"
+                style="height: 25vh; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Submit Home Address</h5>
+                <div class="mb-2">
+                  <span class="badge bg-warning text-dark">HTML</span>
+                  <span class="badge bg-info text-dark">CSS</span>
+                  <span class="badge bg-info">JavaScript</span>
+                </div>
+                <p class="card-text">A simple form to submit addresses.</p>
+                <a href="#" class="btn btn-primary">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+      <section class="blogs-container">
+        <div class="blog-text">
+          BLOGS
+          <hr />
+        </div>
+
+        <div class="blog-section">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/cute-burger-kid-jumping-cartoon-vector-icon-illustration-food-object-icon-isolated-flat-vector_138676-12697.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/cute-burger-kid-jumping-cartoon-vector-icon-illustration-food-object-icon-isolated-flat-vector_138676-12697.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/cute-burger-kid-jumping-cartoon-vector-icon-illustration-food-object-icon-isolated-flat-vector_138676-12697.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/cute-burger-kid-jumping-cartoon-vector-icon-illustration-food-object-icon-isolated-flat-vector_138676-12697.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/cute-burger-kid-jumping-cartoon-vector-icon-illustration-food-object-icon-isolated-flat-vector_138676-12697.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="assets/cute-burger-kid-jumping-cartoon-vector-icon-illustration-food-object-icon-isolated-flat-vector_138676-12697.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+      FOOTER Section -->
+
+      <footer>
+        <div class="contact-me-form">
+          <div class="container">
+            <h2>Contact Me</h2>
+            <form
+              onsubmit="event.preventDefault(); alert('Your inquiry has been submitted successfully!');"
+            >
+              <div class="form-group">
+                <label for="email">Your Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Inquiry</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Submit Inquiry</button>
+            </form>
+
+            <div>
+              <h3>Social Links</h3>
+              <ul>
+                <li><a href="#">Linkeden</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="flex-container footer-container">
+          <div>
+            <h3>Links</h3>
+            <ul>
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#" class="nav-link">Skills</a></li>
+              <li><a href="#" class="nav-link">Projects</a></li>
+              <li><a href="#" class="nav-link">About</a></li>
+              <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Social Links</h3>
+            <ul>
+              <li><a href="#">Linkeden</a></li>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Youtube</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </div> -->
+
+        <center class="center-container">
+          &copy; Copy right all reserved. Made by RRR.
+        </center>
+      </footer>
+
+      <!-- this is a go to top section -->
+
+      <div class="go-to-top">
+        <a href="#home" class="nav-link"
+          ><i class="fa-solid fa-angle-up"></i
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
